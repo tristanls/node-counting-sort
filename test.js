@@ -111,16 +111,16 @@ test['sorting [1] descending should result in [1]'] = function (test) {
     test.done();
 };
 
-// test['sorted descending result should find only lesser or equal values while descending'] = function (test) {
-//     var n = 10000;
-//     test.expect(n - 1);
-//     var array = [];
-//     for (var i = 0; i < n; i++) {
-//         array.push(Math.floor(Math.random() * n));
-//     }
-//     array = countingSort(array, undefined, false);
-//     for (i = 0; i < array.length - 1; i++) {
-//         test.ok(array[i] >= array[i + 1]);
-//     }
-//     test.done();
-// };
+test['sorted descending result should find only lesser or equal values while descending'] = function (test) {
+    var n = 10000;
+    test.expect(n - 1);
+    var array = [];
+    for (var i = 0; i < n; i++) {
+        array.push(Math.floor(Math.random() * n));
+    }
+    array = countingSort(array, undefined, false);
+    for (i = 0; i < array.length - 1; i++) {
+        test.ok(array[i] >= array[i + 1]);
+    }
+    test.done();
+};
