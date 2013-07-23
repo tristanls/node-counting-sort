@@ -1,0 +1,23 @@
+{
+  "name": "counting-sort",
+  "version": "0.1.0",
+  "description": "Counting sort",
+  "scripts": {
+    "test": "node scripts/test.js"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "nodeunit": "0.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/node-counting-sort.git"
+  },
+  "keywords": [
+    "sort",
+    "algorithm",
+    "counting sort"
+  ],
+  "author": "Tristan Slominski <tristan.slominski@gmail.com>",
+  "license": "MIT"
+}
