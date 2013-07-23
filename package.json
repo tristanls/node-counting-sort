@@ -1,6 +1,6 @@
 {
   "name": "counting-sort",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Counting sort",
   "scripts": {
     "test": "node scripts/test.js"
